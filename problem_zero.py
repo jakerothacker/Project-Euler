@@ -17,6 +17,6 @@ def sum_of_odd_first_n_square_numbers(n):
         if square % 2 != 0:
             sum += square   
         count += 1
-    return print(sum) 
+    return (sum) 
 
-sum_of_odd_first_n_square_numbers(829000)
+print(sum_of_odd_first_n_square_numbers(829000))

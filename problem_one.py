@@ -9,6 +9,6 @@ def sum_of_multiples_of_3_and_5_below_n(n):
         elif count % 5 == 0:
             sum += count
         count += 1
-    return (print(sum))
+    return (sum)
 
-sum_of_multiples_of_3_and_5_below_n(1000)
+print(sum_of_multiples_of_3_and_5_below_n(1000))

@@ -17,5 +17,5 @@ def sum_of_even_fibonacci_below_n(n):
         temp = last_count
         last_count = count
         count += temp
-    return (print(sum))
-sum_of_even_fibonacci_below_n(4000000)
+    return (sum)
+print(sum_of_even_fibonacci_below_n(4000000))
