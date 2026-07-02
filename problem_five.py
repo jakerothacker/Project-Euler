@@ -10,6 +10,9 @@ def smallest_number_divisible_by_1_to_n(n):
 
     Returns:
         int: The smallest number divisible by all numbers from 1 to n
+
+    Requires:
+        is_prime(n): from prime_function_stroage.py
     """
     primes = []
     for i in range(2, n + 1):

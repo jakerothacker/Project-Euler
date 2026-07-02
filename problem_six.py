@@ -15,7 +15,12 @@ def square_sum(n):
     return square_of_sum**2
 
 def sum_square_difference(n):
-    """Finds the difference between the sum of the squares and the square of the sum of the first n natural numbers"""
+    """Finds the difference between the sum of the squares and the square of the sum of the first n natural numbers
+    
+    Rquires:
+        sum_square(n): from problem_six.py
+        square_sum(n): from problem_six.py
+    """
     return square_sum(n) - sum_square(n)
 
 print(sum_square_difference(100))

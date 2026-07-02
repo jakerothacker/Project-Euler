@@ -8,6 +8,9 @@ def nth_prime(n):
 
     Returns:
         int: The nth prime number
+
+    Requires:
+        is_prime(n): from prime_function_stroage.py
     """
     if n == 1:
         return 2
