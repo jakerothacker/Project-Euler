@@ -17,6 +17,14 @@ def is_right_triangle(a,b,c):
     else:
         return False
 def check_pythagorian_triplet(n):
+    """Finds a pythogorian triplet where a+b+c=n if it exists
+
+    Args:
+        n (int): ideally a large number
+
+    Returns:
+        prints out a,b,c if it can find them
+    """
     c_start= math.ceil(n/2)
     b_start= n//2 -1
     a_start=1

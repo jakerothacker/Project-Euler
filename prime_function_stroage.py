@@ -19,3 +19,23 @@ def is_prime(n):
             return False
     return True
 
+def next_prime(n):
+    """Finds the next highest prime number
+
+    Args:
+        n (int): any positive integer.
+
+    Needs: import Math
+    """
+    if n<2:
+        return(2)
+    if n==2:
+        return (3)
+    possible_prime = n + 1
+    while True:
+        for i in range (2,math.ceil(possible_prime**0.5)+1):
+            if possible_prime % i == 0:
+                possible_prime += 1 
+                break
+            elif i==math.ceil(possible_prime**0.5):
+                return(possible_prime)
