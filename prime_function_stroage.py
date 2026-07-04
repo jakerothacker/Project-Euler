@@ -1,3 +1,5 @@
+import math
+
 def is_prime(n):
     """Checks if an int is prime
 
