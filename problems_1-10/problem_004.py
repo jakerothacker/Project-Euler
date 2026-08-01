@@ -27,13 +27,13 @@ def largest_palindrome_product_2_factor(n):
             while factor_1 >= 10**(n-1):
                 factor_2 = guess / factor_1
                 if  factor_2 % 1 == 0 and len(str(int(factor_2))) == n:
-                    return print(guess)
+                    return guess
                     
                 else:
                     factor_1 -= 1
 
         
         guess -= 1
-    return print("end")
+  
 
-largest_palindrome_product_2_factor(4)
+print(largest_palindrome_product_2_factor(4))
