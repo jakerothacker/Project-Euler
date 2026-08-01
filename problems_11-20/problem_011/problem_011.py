@@ -1,7 +1,7 @@
 #largest product of 4 surrounding numbers
 from pathlib import Path
 
-file = Path.cwd() / "problem_eleven" / "problem_eleven.txt"
+file = Path.cwd() /"problems_11-20"/ "problem_011" / "problem_011.txt"
 data=[]
 
 contents = file.read_text()
