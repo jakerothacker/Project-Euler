@@ -33,7 +33,7 @@ while column < final_column - n:  #down right diagonal
 
 #up right diagonal
 column = 0
-while column < final_column - n:  #down right diagonal
+while column < final_column - n:  
     row = final_row - 1
     while row >= n:
         
