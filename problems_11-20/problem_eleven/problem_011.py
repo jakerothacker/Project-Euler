@@ -6,14 +6,10 @@ data=[]
 
 contents = file.read_text()
 lines = contents.splitlines()
-row = 1
-for line in lines: #puting data in a dictionary with numbered rows.
-    line = line.split()
-    for num in line:
-        num = int(num)
 
+for line in lines: #puting data in a list of lists
+    line = line.split()
     data.append(line)
-    row += 1
 
 n = 4
 
