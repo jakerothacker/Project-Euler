@@ -4,9 +4,7 @@ def letter_count_including(n):
     tot = 0
     for n in range(1,n+1):
         str = num_to_word(n)
-        str = str.replace(" ","").replace("-","")
-        add = len(str)
-        tot += add
+        tot += len(str.replace(" ","").replace("-",""))
     return tot
 
 
