@@ -51,7 +51,7 @@ def list_of_prime_factors(n):
     """
     check_prime = 2
     prime_factors = [1]
-    while check_prime < math.ceil(n/2):
+    while check_prime <= math.ceil(n/2):
         if n % check_prime == 0:
             prime_factors.append(check_prime)
 
